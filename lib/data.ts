@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import nextBlogImg from "@/public/next-blog.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import autoAvenue from "@/public/auto-avenue.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -63,23 +63,18 @@ export const projectsData = [
   {
     title: "Next-Blog",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Next-Blog is a full-stack post creation Platform with features like authentication ,database storage in MongoDB and Goggle firebase",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: nextBlogImg,
+    projectUrl: "https://next-blog-fr.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "Auto-Avenue",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Auto-Avenue is a modern auto-vehicles information gethering platform.Users can customize their preference based on various categories.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: autoAvenue,
+    projectUrl: "https://auto-avenue-livid.vercel.app/",
   },
 ] as const;
 
