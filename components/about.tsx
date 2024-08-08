@@ -19,10 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Full Stack Developer skilled in the T3 stack, specializing in TypeScript, Redux, and
-        Tailwind. Experienced in creating scalable web applications using Next.js and NestJS.
-        Proficient in both front-end and back-end development, focused on delivering robust and
-        efficient solutions.
+        Frontend Developer skilled in JavaScript, React, and Next.js. Experienced in creating
+        dynamic and responsive web applications with a strong focus on user experience and
+        performance optimization. Proficient in modern frontend technologies and best practices,
+        including state management and styling. Adept at working in agile environments,
+        collaborating with cross-functional teams, and delivering high-quality code.
       </p>
     </motion.section>
   );
