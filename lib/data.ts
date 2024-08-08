@@ -4,7 +4,6 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import nextBlogImg from "@/public/next-blog.png";
 import autoAvenue from "@/public/auto-avenue.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -38,24 +37,25 @@ export const experiencesData = [
     title: "Graduated College",
     location: "Gurgaon, IN",
     description:
-      "I graduated from P.G Sec-9 govt. college in gurgaon from a degree in B.C.A. Where i developed my fundamental programming and software developlement skills in Computer Science.",
+      "I graduated from P.G Sec-9 govt. college in gurgaon from a degree in B.C.A. Where i developed my fundamental programming and software development skills in Computer Science.",
     icon: React.createElement(LuGraduationCap),
     date: "2019-2022",
   },
   {
-    title: "Front-End Developer Internship",
+    title: "Front-End Developer",
     location: "Techvins Software Pvt.",
     description:
-      "I completed my six months internship from Techvins software. Where i worked primarily as a front-end developer Intern. Here i get to utilize and polish my front-end developlement skills in a professional environment. ",
+      "Here i worked primarily as a front-end developer. Here i get to utilize and polish my front-end development skills in a professional environment.",
     icon: React.createElement(CgWorkAlt),
     date: "2022-2023",
   },
   {
-    title: "TBD",
-    location: "Gurgaon",
-    description: "",
+    title: "Full-stack developer",
+    location: "Metaverse ventures.",
+    description:
+      "Worked as a full-stack developer on xMail project. Which is a bulk email-scheduling project with advanced ai,calendar management and customization capabilities.using various front-end and backend technologies like Next.js, react, nest.js, redux, react-query, tailwind.",
     icon: React.createElement(FaReact),
-    date: "2022-2023",
+    date: "2023-2024",
   },
 ] as const;
 
@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "Auto-Avenue",
     description:
-      "Auto-Avenue is a modern auto-vehicles information gethering platform.Users can customize their preference based on various categories.",
+      "Auto-Avenue is a modern auto-vehicles information gathering platform.Users can customize their preference based on various categories.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: autoAvenue,
     projectUrl: "https://auto-avenue-livid.vercel.app/",
@@ -81,21 +81,16 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
+  "JavaScript/TS",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Express.js",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "NextJs",
+  "REACT-QUERY",
 ] as const;
