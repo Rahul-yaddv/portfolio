@@ -15,6 +15,10 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -22,10 +26,7 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -50,10 +51,10 @@ export const experiencesData = [
     date: "2022-2023",
   },
   {
-    title: "Full-stack developer",
+    title: "Frontend developer",
     location: "Metaverse ventures.",
     description:
-      "Worked as a full-stack developer on xMail project. Which is a bulk email-scheduling project with advanced ai,calendar management and customization capabilities.using various front-end and backend technologies like Next.js, react, nest.js, redux, react-query, tailwind.",
+      "Contributed as a Frontend Developer to the xMail project, a robust bulk email scheduling and management platform. I contributed by working on api integration from various services while also delivering high-quality user interfaces,advanced interactive calendar and complex data visualization.",
     icon: React.createElement(FaReact),
     date: "2023-2024",
   },
