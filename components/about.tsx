@@ -18,6 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      <p>
         Frontend Developer skilled in JavaScript, React, and Next.js. Experienced in creating
         dynamic and responsive web applications with a strong focus on user experience and
         performance optimization. Proficient in modern frontend technologies and best practices,
