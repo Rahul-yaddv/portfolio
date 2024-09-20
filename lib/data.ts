@@ -62,9 +62,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Next-Blog",
+    title: "Code-flow",
     description:
-      "Next-Blog is a full-stack post creation Platform with features like authentication ,database storage in MongoDB and Goggle firebase",
+      "code-flow is a full-stack post creation Platform with features like authentication ,database storage in MongoDB and Goggle firebase",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: nextBlogImg,
     projectUrl: "https://next-blog-fr.vercel.app/",
